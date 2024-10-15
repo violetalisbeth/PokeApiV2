@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: beige;
+  background-color: #f0f0f5; /* Fondo gris claro */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: #ffffff; /* Fondo blanco */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,6 +28,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
+  color: #34495e; /* Gris oscuro */
 }
 
 form {
@@ -40,21 +41,22 @@ input[type="text"] {
   padding: 10px;
   width: 200px;
   border-radius: 4px;
-  border: 2px solid #c05292;
+  border: 2px solid #3498db; /* Borde azul */
   margin-right: 10px;
 }
 
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #c05292;
+  background-color: #3498db; /* Botón azul */
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+  color: #ffffff; /* Texto blanco */
 }
 
 button:hover {
-  background-color: #c05292;
+  background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
 }
 
 #pokemonInfo {
@@ -64,9 +66,9 @@ button:hover {
 .pokemon-card {
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1; /* Borde gris suave */
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #ffffff; /* Fondo blanco */
 }
 
 #pokemonInfo img {
@@ -77,12 +79,13 @@ button:hover {
 #pokemonInfo p {
   font-size: 16px;
   margin-top: 10px;
+  color: #34495e; /* Texto gris oscuro */
 }
 
 #pokemonInfo p strong {
-  color: #c05292;
+  color: #2ecc71; /* Verde para el texto destacado */
 }
 
 #pokemonInfo h2 {
-  color: #c05292;
+  color: #3498db; /* Título en azul */
 }
